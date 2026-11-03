@@ -1,0 +1,245 @@
+{
+  "models": {
+    "Router-PT": {
+      "type": "Router",
+      "ports": [
+        "FastEthernet0/0",
+        "FastEthernet1/0",
+        "Serial2/0",
+        "Serial3/0",
+        "FastEthernet4/0",
+        "FastEthernet5/0"
+      ],
+      "file": "Router-PT.xml"
+    },
+    "2960-24TT": {
+      "type": "Switch",
+      "ports": [
+        "FastEthernet0/1",
+        "FastEthernet0/2",
+        "FastEthernet0/3",
+        "FastEthernet0/4",
+        "FastEthernet0/5",
+        "FastEthernet0/6",
+        "FastEthernet0/7",
+        "FastEthernet0/8",
+        "FastEthernet0/9",
+        "FastEthernet0/10",
+        "FastEthernet0/11",
+        "FastEthernet0/12",
+        "FastEthernet0/13",
+        "FastEthernet0/14",
+        "FastEthernet0/15",
+        "FastEthernet0/16",
+        "FastEthernet0/17",
+        "FastEthernet0/18",
+        "FastEthernet0/19",
+        "FastEthernet0/20",
+        "FastEthernet0/21",
+        "FastEthernet0/22",
+        "FastEthernet0/23",
+        "FastEthernet0/24",
+        "GigabitEthernet1/1",
+        "GigabitEthernet1/2"
+      ],
+      "file": "2960-24TT.xml"
+    },
+    "PC-PT": {
+      "type": "Pc",
+      "ports": [
+        "FastEthernet"
+      ],
+      "file": "PC-PT.xml"
+    },
+    "Laptop-PT": {
+      "type": "Laptop",
+      "ports": [
+        "FastEthernet"
+      ],
+      "file": "Laptop-PT.xml"
+    },
+    "2811": {
+      "type": "Router",
+      "ports": [
+        "FastEthernet0/0",
+        "FastEthernet0/1"
+      ],
+      "file": "2811.xml"
+    },
+    "Server-PT": {
+      "type": "Server",
+      "ports": [
+        "FastEthernet"
+      ],
+      "file": "Server-PT.xml"
+    },
+    "AccessPoint-PT": {
+      "type": "AccessPoint",
+      "ports": [
+        "Ethernet",
+        "Wireless"
+      ],
+      "file": "AccessPoint-PT.xml"
+    },
+    "2950-24": {
+      "type": "Switch",
+      "ports": [
+        "FastEthernet0/1",
+        "FastEthernet0/2",
+        "FastEthernet0/3",
+        "FastEthernet0/4",
+        "FastEthernet0/5",
+        "FastEthernet0/6",
+        "FastEthernet0/7",
+        "FastEthernet0/8",
+        "FastEthernet0/9",
+        "FastEthernet0/10",
+        "FastEthernet0/11",
+        "FastEthernet0/12",
+        "FastEthernet0/13",
+        "FastEthernet0/14",
+        "FastEthernet0/15",
+        "FastEthernet0/16",
+        "FastEthernet0/17",
+        "FastEthernet0/18",
+        "FastEthernet0/19",
+        "FastEthernet0/20",
+        "FastEthernet0/21",
+        "FastEthernet0/22",
+        "FastEthernet0/23",
+        "FastEthernet0/24"
+      ],
+      "file": "2950-24.xml"
+    },
+    "3560-24PS": {
+      "type": "MultiLayerSwitch",
+      "ports": [
+        "FastEthernet0/1",
+        "FastEthernet0/2",
+        "FastEthernet0/3",
+        "FastEthernet0/4",
+        "FastEthernet0/5",
+        "FastEthernet0/6",
+        "FastEthernet0/7",
+        "FastEthernet0/8",
+        "FastEthernet0/9",
+        "FastEthernet0/10",
+        "FastEthernet0/11",
+        "FastEthernet0/12",
+        "FastEthernet0/13",
+        "FastEthernet0/14",
+        "FastEthernet0/15",
+        "FastEthernet0/16",
+        "FastEthernet0/17",
+        "FastEthernet0/18",
+        "FastEthernet0/19",
+        "FastEthernet0/20",
+        "FastEthernet0/21",
+        "FastEthernet0/22",
+        "FastEthernet0/23",
+        "FastEthernet0/24",
+        "GigabitEthernet0/1",
+        "GigabitEthernet0/2"
+      ],
+      "file": "3560-24PS.xml"
+    },
+    "1841": {
+      "type": "Router",
+      "ports": [
+        "FastEthernet0/0",
+        "FastEthernet0/1"
+      ],
+      "file": "1841.xml"
+    },
+    "2620XM": {
+      "type": "Router",
+      "ports": [
+        "FastEthernet0/0"
+      ],
+      "file": "2620XM.xml"
+    },
+    "2621XM": {
+      "type": "Router",
+      "ports": [
+        "FastEthernet0/0",
+        "FastEthernet0/1"
+      ],
+      "file": "2621XM.xml"
+    },
+    "2950T-24": {
+      "type": "Switch",
+      "ports": [
+        "FastEthernet0/1",
+        "FastEthernet0/2",
+        "FastEthernet0/3",
+        "FastEthernet0/4",
+        "FastEthernet0/5",
+        "FastEthernet0/6",
+        "FastEthernet0/7",
+        "FastEthernet0/8",
+        "FastEthernet0/9",
+        "FastEthernet0/10",
+        "FastEthernet0/11",
+        "FastEthernet0/12",
+        "FastEthernet0/13",
+        "FastEthernet0/14",
+        "FastEthernet0/15",
+        "FastEthernet0/16",
+        "FastEthernet0/17",
+        "FastEthernet0/18",
+        "FastEthernet0/19",
+        "FastEthernet0/20",
+        "FastEthernet0/21",
+        "FastEthernet0/22",
+        "FastEthernet0/23",
+        "FastEthernet0/24",
+        "GigabitEthernet1/1",
+        "GigabitEthernet1/2"
+      ],
+      "file": "2950T-24.xml"
+    },
+    "Switch-PT": {
+      "type": "Switch",
+      "ports": [
+        "FastEthernet0/1",
+        "FastEthernet1/1",
+        "FastEthernet2/1",
+        "FastEthernet3/1",
+        "FastEthernet4/1",
+        "FastEthernet5/1"
+      ],
+      "file": "Switch-PT.xml"
+    },
+    "AccessPoint-PT-A": {
+      "type": "AccessPoint",
+      "ports": [
+        "Ethernet",
+        "Wireless"
+      ],
+      "file": "AccessPoint-PT-A.xml"
+    },
+    "AccessPoint-PT-N": {
+      "type": "AccessPoint",
+      "ports": [
+        "Ethernet",
+        "Wireless"
+      ],
+      "file": "AccessPoint-PT-N.xml"
+    },
+    "Printer-PT": {
+      "type": "Printer",
+      "ports": [
+        "FastEthernet"
+      ],
+      "file": "Printer-PT.xml"
+    },
+    "WiredEndDevice-PT": {
+      "type": "WiredEndDevice",
+      "ports": [
+        "FastEthernet"
+      ],
+      "file": "WiredEndDevice-PT.xml"
+    }
+  },
+  "skeleton": "skeleton.xml"
+}

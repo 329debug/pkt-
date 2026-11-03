@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DEVICE>
+    <ENGINE>
+     <TYPE model="2950T-24">Switch</TYPE>
+     <NAME translate="true">设备</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION />
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL />
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL />
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1201</MACADDRESS>
+         <BIA>0090.2123.1201</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1202</MACADDRESS>
+         <BIA>0090.2123.1202</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1203</MACADDRESS>
+         <BIA>0090.2123.1203</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1204</MACADDRESS>
+         <BIA>0090.2123.1204</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>10000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1205</MACADDRESS>
+         <BIA>0090.2123.1205</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1206</MACADDRESS>
+         <BIA>0090.2123.1206</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1207</MACADDRESS>
+         <BIA>0090.2123.1207</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1208</MACADDRESS>
+         <BIA>0090.2123.1208</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1209</MACADDRESS>
+         <BIA>0090.2123.1209</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.120A</MACADDRESS>
+         <BIA>0090.2123.120A</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.120B</MACADDRESS>
+         <BIA>0090.2123.120B</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.120C</MACADDRESS>
+         <BIA>0090.2123.120C</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.120D</MACADDRESS>
+         <BIA>0090.2123.120D</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.120E</MACADDRESS>
+         <BIA>0090.2123.120E</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.120F</MACADDRESS>
+         <BIA>0090.2123.120F</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1210</MACADDRESS>
+         <BIA>0090.2123.1210</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1211</MACADDRESS>
+         <BIA>0090.2123.1211</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1212</MACADDRESS>
+         <BIA>0090.2123.1212</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1213</MACADDRESS>
+         <BIA>0090.2123.1213</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1214</MACADDRESS>
+         <BIA>0090.2123.1214</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1215</MACADDRESS>
+         <BIA>0090.2123.1215</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1216</MACADDRESS>
+         <BIA>0090.2123.1216</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1217</MACADDRESS>
+         <BIA>0090.2123.1217</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.2123.1218</MACADDRESS>
+         <BIA>0090.2123.1218</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>eNonRemovableModule</TYPE>
+       <MODULE>
+        <TYPE>eNonRemovableModule</TYPE>
+        <MODEL />
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0002.17CA.E701</MACADDRESS>
+         <BIA>0002.17CA.E701</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+        </PORT>
+        <PORT>
+         <TYPE>eCopperGigabitEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>1000000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0002.17CA.E702</MACADDRESS>
+         <BIA>0002.17CA.E702</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>185526022</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+     </MODULE>
+     <RUNNINGCONFIG>
+      </RUNNINGCONFIG>
+     <STARTUPCONFIG />
+     <CURRENT_COMMAND_SET>2950_12.1_EA4</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>c2950-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>2950_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>1</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <BOOT_SYSTEMS />
+     <CONFIG_REGISTER>15</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>15</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/c2950-i6q4l2-mz.121-22.EA4.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>0000.0C14.800A</BUILD_IN_ADDR>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+     </ALGORITHM_SETTINGS>
+     <VLANS>
+      <VLAN number="1" name="default" />
+      <VLAN number="1002" name="fddi-default" />
+      <VLAN number="1003" name="token-ring-default" />
+      <VLAN number="1004" name="fddinet-default" />
+      <VLAN number="1005" name="trnet-default" />
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME />
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD />
+      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+     </VTP>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>0</X>
+      <Y>0</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL />
+      <CUSTOM_IMAGE_LOGICAL />
+      <MEM_ADDR>0</MEM_ADDR>
+      <DEV_ADDR>0</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true" />
+    </WORKSPACE>
+   </DEVICE>
+   

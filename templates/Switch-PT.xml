@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DEVICE>
+    <ENGINE>
+     <TYPE model="Switch-PT">Switch</TYPE>
+     <NAME translate="true">设备</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION />
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL />
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+       <MODULE>
+        <TYPE>ePtSwitchModule</TYPE>
+        <MODEL>PT-SWITCH-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0007.EC52.5A29</MACADDRESS>
+         <BIA>0007.EC52.5A29</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4293980400</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+       <MODULE>
+        <TYPE>ePtSwitchModule</TYPE>
+        <MODEL>PT-SWITCH-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>000C.8532.1A51</MACADDRESS>
+         <BIA>000C.8532.1A51</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4293980400</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+       <MODULE>
+        <TYPE>ePtSwitchModule</TYPE>
+        <MODEL>PT-SWITCH-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0001.6424.E213</MACADDRESS>
+         <BIA>0001.6424.E213</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4293980400</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+       <MODULE>
+        <TYPE>ePtSwitchModule</TYPE>
+        <MODEL>PT-SWITCH-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>000A.4152.04B9</MACADDRESS>
+         <BIA>000A.4152.04B9</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4293980400</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+       <MODULE>
+        <TYPE>ePtSwitchModule</TYPE>
+        <MODEL>PT-SWITCH-NM-1FFE</MODEL>
+        <PORT>
+         <TYPE>eFiberFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0009.7CD4.4932</MACADDRESS>
+         <BIA>0009.7CD4.4932</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4293980400</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+       <MODULE>
+        <TYPE>ePtSwitchModule</TYPE>
+        <MODEL>PT-SWITCH-NM-1FFE</MODEL>
+        <PORT>
+         <TYPE>eFiberFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>true</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>000C.85D8.08E1</MACADDRESS>
+         <BIA>000C.85D8.08E1</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4293980400</CHANNEL>
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtSwitchModule</TYPE>
+      </SLOT>
+     </MODULE>
+     <RUNNINGCONFIG>
+      </RUNNINGCONFIG>
+     <STARTUPCONFIG />
+     <CURRENT_COMMAND_SET>pt_12.1_EA4</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>pt3000-i6q4l2-mz.121-22.EA4.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Switch</DEVICE_TYPE>
+            <SET_NAME>pt_12.1_EA4</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>1</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <BOOT_SYSTEMS />
+     <CONFIG_REGISTER>15</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>15</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/pt3000-i6q4l2-mz.121-22.EA4.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>000B.BEC1.8049</BUILD_IN_ADDR>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+     </ALGORITHM_SETTINGS>
+     <VLANS>
+      <VLAN number="1" name="default" />
+      <VLAN number="1002" name="fddi-default" />
+      <VLAN number="1003" name="token-ring-default" />
+      <VLAN number="1004" name="fddinet-default" />
+      <VLAN number="1005" name="trnet-default" />
+     </VLANS>
+     <VTP>
+      <DOMAIN_NAME />
+      <MODE>0</MODE>
+      <VERSION>1</VERSION>
+      <PASSWORD />
+      <CONFIG_REVISION>0</CONFIG_REVISION>
+      <UPDATER_IP>0.0.0.0</UPDATER_IP>
+      <UPDATE_TIMESTAMP>0-0-00 00:00:00</UPDATE_TIMESTAMP>
+     </VTP>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>0</X>
+      <Y>0</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL />
+      <CUSTOM_IMAGE_LOGICAL />
+      <MEM_ADDR>0</MEM_ADDR>
+      <DEV_ADDR>0</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true" />
+    </WORKSPACE>
+   </DEVICE>
+   

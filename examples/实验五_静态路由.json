@@ -1,0 +1,57 @@
+{
+  "name": "实验五 路由协议配置 - 完整静态路由",
+  "devices": [
+    {
+      "name": "路由器1", "model": "Router-PT", "hostname": "Router1", "x": 377, "y": 270,
+      "interfaces": {
+        "FastEthernet0/0": {"ip": "172.16.2.254", "mask": "255.255.255.0"},
+        "FastEthernet1/0": {"ip": "172.16.1.5", "mask": "255.255.255.252"}
+      },
+      "config": [
+        "ip route 172.16.1.0 255.255.255.252 172.16.1.6",
+        "ip route 172.16.3.0 255.255.255.0 172.16.1.6"
+      ]
+    },
+    {
+      "name": "路由器2", "model": "Router-PT", "hostname": "Router2", "x": 498, "y": 146,
+      "interfaces": {
+        "FastEthernet0/0": {"ip": "172.16.1.6", "mask": "255.255.255.252"},
+        "FastEthernet1/0": {"ip": "172.16.1.2", "mask": "255.255.255.252"},
+        "Serial2/0": {"ip": "202.112.11.1", "mask": "255.255.255.0"}
+      },
+      "config": [
+        "ip route 172.16.2.0 255.255.255.0 172.16.1.5",
+        "ip route 172.16.3.0 255.255.255.0 172.16.1.1"
+      ]
+    },
+    {
+      "name": "路由器3", "model": "2811", "hostname": "Router3", "x": 585, "y": 266,
+      "interfaces": {
+        "FastEthernet0/0": {"ip": "172.16.3.254", "mask": "255.255.255.0"},
+        "FastEthernet0/1": {"ip": "172.16.1.1", "mask": "255.255.255.252"}
+      },
+      "config": [
+        "ip route 172.16.2.0 255.255.255.0 172.16.1.2",
+        "ip route 172.16.1.4 255.255.255.252 172.16.1.2"
+      ]
+    },
+    {"name": "交换机0", "model": "2960-24TT", "hostname": "Switch0", "x": 345, "y": 402},
+    {"name": "交换机1", "model": "2960-24TT", "hostname": "Switch1", "x": 616, "y": 407},
+    {
+      "name": "主机0", "model": "PC-PT", "x": 283, "y": 501,
+      "pc": {"ip": "172.16.2.10", "mask": "255.255.255.0", "gateway": "172.16.2.254"}
+    },
+    {
+      "name": "主机2", "model": "PC-PT", "x": 528, "y": 495,
+      "pc": {"ip": "172.16.3.10", "mask": "255.255.255.0", "gateway": "172.16.3.254"}
+    }
+  ],
+  "links": [
+    {"from": "主机0:FastEthernet", "to": "交换机0:FastEthernet0/1"},
+    {"from": "主机2:FastEthernet", "to": "交换机1:FastEthernet0/2"},
+    {"from": "交换机0:FastEthernet0/3", "to": "路由器1:FastEthernet0/0", "cable": "straight"},
+    {"from": "交换机1:FastEthernet0/1", "to": "路由器3:FastEthernet0/0", "cable": "straight"},
+    {"from": "路由器1:FastEthernet1/0", "to": "路由器2:FastEthernet0/0", "cable": "cross"},
+    {"from": "路由器3:FastEthernet0/1", "to": "路由器2:FastEthernet1/0", "cable": "cross"}
+  ]
+}

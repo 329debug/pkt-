@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf-8'?>
+<PACKETTRACER5>
+ <VERSION>5.3.0.0088</VERSION>
+ <NETWORK>
+  <DEVICES>
+   </DEVICES>
+  <LINKS>
+   </LINKS>
+  <DESCRIPTION translate="true" />
+ </NETWORK>
+ <SCENARIOSET>
+  <SCENARIO>
+   <NAME translate="true">Scenario 0</NAME>
+   <DESCRIPTION translate="true" />
+  </SCENARIO>
+ </SCENARIOSET>
+ <OPTIONS>
+  <LANGUAGE>chinese.ptl</LANGUAGE>
+  <ANIMATION>true</ANIMATION>
+  <SOUND>false</SOUND>
+  <DOCK>true</DOCK>
+  <LOGGING>true</LOGGING>
+  <PASS />
+  <CONFIGPATH>./</CONFIGPATH>
+  <MODELSHOWN>false</MODELSHOWN>
+  <LINKLIGHTSSHOWN>false</LINKLIGHTSSHOWN>
+  <PORTSHOWN>false</PORTSHOWN>
+  <BACKGROUNDS />
+  <HIDEPHYSICAL>false</HIDEPHYSICAL>
+  <HIDECONFIG>false</HIDECONFIG>
+  <HIDECLI>false</HIDECLI>
+  <HIDEDESKTOP>false</HIDEDESKTOP>
+  <HIDEGUI>falsefalsefalse</HIDEGUI>
+  <HIDEDEVICELABEL>false</HIDEDEVICELABEL>
+  <ACCESSIBLE>false</ACCESSIBLE>
+  <FONT>
+   <CLIFONT family="Courier New" pointsize="13 " />
+   <HEADERFONT family="Verdana" pointsize="10 " />
+   <WORKSPACEFONT family="Verdana" pointsize="13 " />
+   <ACTIVITYFONT family="Verdana" pointsize="10 " />
+   <FILEMENUFONT family="Tahoma" pointsize="10 " />
+   <TABSWITCH family="Verdana" pointsize="10 " />
+   <TOOLTIP family="Courier New" pointsize="10 " />
+   <BUTTONLABELS family="Verdana" pointsize="10 " />
+  </FONT>
+  <BUFFER_FULL_ACTION>0</BUFFER_FULL_ACTION>
+  <MULTIUSER>
+   <NAME />
+   <ALLOWREMOTESAVING>true</ALLOWREMOTESAVING>
+   <ALWAYSLISTENATSTARTUP>true</ALWAYSLISTENATSTARTUP>
+   <SHOW_CONNECTED_PORT_NAMES>true</SHOW_CONNECTED_PORT_NAMES>
+   <MU_PEERS>
+    <PEER>localhost:38000</PEER>
+   </MU_PEERS>
+   <REMOTE_SAVING_DEPTH>5</REMOTE_SAVING_DEPTH>
+   <MU_PASSWORD>cisco</MU_PASSWORD>
+   <MU_ACCEPT_MODE>2</MU_ACCEPT_MODE>
+   <MU_NEW_RNET_ACCEPT_MODE>2</MU_NEW_RNET_ACCEPT_MODE>
+   <MU_ALLOW_PTMP_BROADCAST>true</MU_ALLOW_PTMP_BROADCAST>
+  </MULTIUSER>
+  <IPC_MANAGER>
+   <METAFILE_PATH>../extensions/ptaplayer/ptaplayer.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/PTUpdater/PTUpdater.pta</METAFILE_PATH>
+   <METAFILE_PATH>../extensions/upnp/upnp.pta</METAFILE_PATH>
+   <DISABLED_CEPS />
+  </IPC_MANAGER>
+  <IPC_ALLOWREMOTEAPPS>false</IPC_ALLOWREMOTEAPPS>
+  <RECENT_FILES>
+   <FILE>E:\1课程资料\0-计算机网络-计科和软工专业\1--软件工程和计算机科学-新\实验\实验\5实验五 路由协议配置1\5实验五 路由协议配置T\静态路由.pkt</FILE>
+  </RECENT_FILES>
+  <PORTNOTSHOWNONMOUSEOVER>false</PORTNOTSHOWNONMOUSEOVER>
+  <INTERFACE_LOCK>false,false,false,false,false</INTERFACE_LOCK>
+  <ALGORITHM_SETTINGS>
+   <USE_GLOBAL>false</USE_GLOBAL>
+   <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+   <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+   <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+   <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+   <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+  </ALGORITHM_SETTINGS>
+  <HIDEQOSSTAMP>false</HIDEQOSSTAMP>
+  <IPCLISTENSTARTUP>true</IPCLISTENSTARTUP>
+  <ENABLE_CABLE_LENGTH_EFFECTS>false</ENABLE_CABLE_LENGTH_EFFECTS>
+ </OPTIONS>
+ <PHYSICALWORKSPACE>
+  <HOMERACK translate="true">城市间,城市家园,公司办公室,配线橱</HOMERACK>
+  <NODE>
+   <X>0</X>
+   <Y>0</Y>
+   <TYPE>0</TYPE>
+   <NAME translate="true">城市间</NAME>
+   <SX>8.98473</SX>
+   <SY>8.98473</SY>
+   <W>20000</W>
+   <H>12416.9</H>
+   <PATH>../art/Background/gGeoViewInterCity.png</PATH>
+   <CHILDREN>
+    <NODE>
+     <X>200</X>
+     <Y>200</Y>
+     <TYPE>1</TYPE>
+     <NAME translate="true">城市家园</NAME>
+     <SX>1.18694</SX>
+     <SY>1.18694</SY>
+     <W>2000</W>
+     <H>1237.98</H>
+     <PATH>../art/Background/gGeoViewCity.png</PATH>
+     <CHILDREN>
+      <NODE>
+       <X>100</X>
+       <Y>100</Y>
+       <TYPE>2</TYPE>
+       <NAME translate="true">公司办公室</NAME>
+       <SX>0.058072</SX>
+       <SY>0.058072</SY>
+       <W>200</W>
+       <H>125.261</H>
+       <PATH>../art/Background/gGeoViewBuilding.png</PATH>
+       <CHILDREN>
+        <NODE>
+         <X>50</X>
+         <Y>50</Y>
+         <TYPE>3</TYPE>
+         <NAME translate="true">主要的工作橱</NAME>
+         <SX>1</SX>
+         <SY>1</SY>
+         <W>20</W>
+         <H>20</H>
+         <PATH>../art/Background/grid_100x100.png</PATH>
+         <CHILDREN>
+          <NODE>
+           <X>0</X>
+           <Y>0</Y>
+           <TYPE>4</TYPE>
+           <NAME translate="true">机柜</NAME>
+           <SX>1</SX>
+           <SY>1</SY>
+           <W>0</W>
+           <H>0</H>
+           <PATH>../art/Background/grid_100x100.png</PATH>
+           <CHILDREN>
+            </CHILDREN>
+           <MANUAL_SCALING>false</MANUAL_SCALING>
+           <SCALED_PIXMAP_WIDTH>1500</SCALED_PIXMAP_WIDTH>
+           <SCALED_PIXMAP_HEIGHT>20</SCALED_PIXMAP_HEIGHT>
+           <INIT_WIDTH>0</INIT_WIDTH>
+           <INIT_HEIGHT>0</INIT_HEIGHT>
+           <INIT_SX>1</INIT_SX>
+           <INIT_SY>0</INIT_SY>
+          </NODE>
+          <NODE>
+           <X>0</X>
+           <Y>0</Y>
+           <TYPE>5</TYPE>
+           <NAME translate="true">桌子</NAME>
+           <SX>1</SX>
+           <SY>1</SY>
+           <W>0</W>
+           <H>0</H>
+           <PATH>../art/Background/grid_100x100.png</PATH>
+           <CHILDREN>
+            </CHILDREN>
+           <MANUAL_SCALING>false</MANUAL_SCALING>
+           <SCALED_PIXMAP_WIDTH>539583272</SCALED_PIXMAP_WIDTH>
+           <SCALED_PIXMAP_HEIGHT>909654321</SCALED_PIXMAP_HEIGHT>
+           <INIT_WIDTH>0</INIT_WIDTH>
+           <INIT_HEIGHT>0</INIT_HEIGHT>
+           <INIT_SX>1</INIT_SX>
+           <INIT_SY>0</INIT_SY>
+          </NODE>
+         </CHILDREN>
+         <MANUAL_SCALING>false</MANUAL_SCALING>
+         <SCALED_PIXMAP_WIDTH>75164210</SCALED_PIXMAP_WIDTH>
+         <SCALED_PIXMAP_HEIGHT>5242880</SCALED_PIXMAP_HEIGHT>
+         <INIT_WIDTH>20</INIT_WIDTH>
+         <INIT_HEIGHT>20</INIT_HEIGHT>
+         <INIT_SX>1</INIT_SX>
+         <INIT_SY>0.266667</INIT_SY>
+        </NODE>
+        <NODE>
+         <X>55</X>
+         <Y>55</Y>
+         <TYPE>3</TYPE>
+         <NAME translate="true">配线橱</NAME>
+         <SX>1</SX>
+         <SY>1</SY>
+         <W>20</W>
+         <H>20</H>
+         <PATH>../art/Background/grid_100x100.png</PATH>
+         <CHILDREN />
+         <MANUAL_SCALING>false</MANUAL_SCALING>
+         <SCALED_PIXMAP_WIDTH>1503375567</SCALED_PIXMAP_WIDTH>
+         <SCALED_PIXMAP_HEIGHT>1503375567</SCALED_PIXMAP_HEIGHT>
+         <INIT_WIDTH>20</INIT_WIDTH>
+         <INIT_HEIGHT>20</INIT_HEIGHT>
+         <INIT_SX>1</INIT_SX>
+         <INIT_SY>0.266667</INIT_SY>
+        </NODE>
+       </CHILDREN>
+       <MANUAL_SCALING>false</MANUAL_SCALING>
+       <SCALED_PIXMAP_WIDTH>1729950996</SCALED_PIXMAP_WIDTH>
+       <SCALED_PIXMAP_HEIGHT>1729950996</SCALED_PIXMAP_HEIGHT>
+       <INIT_WIDTH>200</INIT_WIDTH>
+       <INIT_HEIGHT>200</INIT_HEIGHT>
+       <INIT_SX>0.058072</INIT_SX>
+       <INIT_SY>0.0927214</INIT_SY>
+      </NODE>
+     </CHILDREN>
+     <MANUAL_SCALING>false</MANUAL_SCALING>
+     <SCALED_PIXMAP_WIDTH>7078005</SCALED_PIXMAP_WIDTH>
+     <SCALED_PIXMAP_HEIGHT>2097253</SCALED_PIXMAP_HEIGHT>
+     <INIT_WIDTH>2000</INIT_WIDTH>
+     <INIT_HEIGHT>2000</INIT_HEIGHT>
+     <INIT_SX>1.18694</INIT_SX>
+     <INIT_SY>1.91755</INIT_SY>
+    </NODE>
+   </CHILDREN>
+   <MANUAL_SCALING>false</MANUAL_SCALING>
+   <SCALED_PIXMAP_WIDTH>0</SCALED_PIXMAP_WIDTH>
+   <SCALED_PIXMAP_HEIGHT>0</SCALED_PIXMAP_HEIGHT>
+   <INIT_WIDTH>20000</INIT_WIDTH>
+   <INIT_HEIGHT>20000</INIT_HEIGHT>
+   <INIT_SX>8.98473</INIT_SX>
+   <INIT_SY>14.4718</INIT_SY>
+  </NODE>
+  <BGPATH>C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin/C:/Program Files (x86)/Cisco Packet Tracer 5.3/bin</BGPATH>
+  <NOTES>
+   </NOTES>
+ </PHYSICALWORKSPACE>
+ <FILTERS SCCP="yes" DHCP="yes" RIP="yes" SSH="yes" CDP="yes" NTP="yes" Telnet="yes" HTTP="yes" OSPF="yes" LACP="yes" TCP="yes" ICMP="yes" ARP="yes" ISAKMP="yes" DNS="yes" SNMP="yes" VTP="yes" ICMPv6="yes" BGP="yes" HTTPS="yes" SMTP="yes" IPSec="yes" PAgP="yes" UDP="yes" H.323="yes" STP="yes" TACACS="yes" POP3="yes" FTP="yes" RADIUS="yes" TFTP="yes" RTP="yes" SYSLOG="yes" EIGRP="yes" DTP="yes">
+  <ACL_FILTERS>
+   <ACL_FILTER>
+    <NAME>ACL Filter</NAME>
+    <STATEMENTS />
+    <ENABLED>yes</ENABLED>
+   </ACL_FILTER>
+  </ACL_FILTERS>
+ </FILTERS>
+ <CLUSTERS>
+  <ROOTCLUSTER>
+   <NAME translate="true">Root</NAME>
+   <CLUSTERID>1-1</CLUSTERID>
+  </ROOTCLUSTER>
+ </CLUSTERS>
+ <LINES />
+ <RECTANGLES>
+  </RECTANGLES>
+ <ELLIPSES />
+ <USER_PROFILE>
+  <NAME>Guest</NAME>
+  <EMAIL />
+  <ADDITIONAL_INFO />
+ </USER_PROFILE>
+ <MULTIUSER>
+  <REMOTE_NETWORKS />
+  <PORT_VISIBILITY />
+ </MULTIUSER>
+ <GEOVIEW_GRAPHICSITEMS>
+  <ParentPhyObject>
+   <Path>城市间</Path>
+   <GeoConnectionItems />
+   <BreakPointItems />
+   <GroupPointItems />
+   <EllipticalShapes />
+   <RectangularShapes />
+   <LineShapes />
+   <NoteEdits />
+  </ParentPhyObject>
+ </GEOVIEW_GRAPHICSITEMS>
+ <CEPS />
+</PACKETTRACER5>

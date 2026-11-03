@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pkt
+*.pka
+*.pkz
+output/
+.pytest_cache/

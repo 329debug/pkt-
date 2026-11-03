@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DEVICE>
+    <ENGINE>
+     <TYPE model="Router-PT">Router</TYPE>
+     <NAME translate="true">设备</NAME>
+     <POWER>true</POWER>
+     <DESCRIPTION />
+     <MODULE>
+      <TYPE>eNonRemovableModule</TYPE>
+      <MODEL />
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+       <MODULE>
+        <TYPE>ePtRouterModule</TYPE>
+        <MODEL>PT-ROUTER-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0090.0CD3.BAA9</MACADDRESS>
+         <BIA>0090.0CD3.BAA9</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+         <IP />
+         <SUBNET />
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::290:CFF:FED3:BAA9</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+       <MODULE>
+        <TYPE>ePtRouterModule</TYPE>
+        <MODEL>PT-ROUTER-NM-1CFE</MODEL>
+        <PORT>
+         <TYPE>eCopperFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0006.2AC5.0DBC</MACADDRESS>
+         <BIA>0006.2AC5.0DBC</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>6357111</CHANNEL>
+         <IP />
+         <SUBNET />
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::206:2AFF:FEC5:DBC</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+       <MODULE>
+        <TYPE>ePtRouterModule</TYPE>
+        <MODEL>PT-ROUTER-NM-1S</MODEL>
+        <PORT>
+         <TYPE>eSerial</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>1544</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0002.176E.1940</MACADDRESS>
+         <BIA>0002.176E.1940</BIA>
+         <CLOCKRATE>64000</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>2147582720</CHANNEL>
+         <IP />
+         <SUBNET />
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::202:17FF:FE6E:1940</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+       <MODULE>
+        <TYPE>ePtRouterModule</TYPE>
+        <MODEL>PT-ROUTER-NM-1S</MODEL>
+        <PORT>
+         <TYPE>eSerial</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>1544</BANDWIDTH>
+         <FULLDUPLEX>true</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>00D0.BA0A.A3E3</MACADDRESS>
+         <BIA>00D0.BA0A.A3E3</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>4294967295</CHANNEL>
+         <IP />
+         <SUBNET />
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::2D0:BAFF:FE0A:A3E3</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+       <MODULE>
+        <TYPE>ePtRouterModule</TYPE>
+        <MODEL>PT-ROUTER-NM-1FFE</MODEL>
+        <PORT>
+         <TYPE>eFiberFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0060.3EC1.76A4</MACADDRESS>
+         <BIA>0060.3EC1.76A4</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>2147525367</CHANNEL>
+         <IP />
+         <SUBNET />
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::260:3EFF:FEC1:76A4</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+       <MODULE>
+        <TYPE>ePtRouterModule</TYPE>
+        <MODEL>PT-ROUTER-NM-1FFE</MODEL>
+        <PORT>
+         <TYPE>eFiberFastEthernet</TYPE>
+         <POWER>true</POWER>
+         <PINS>false</PINS>
+         <BANDWIDTH>100000</BANDWIDTH>
+         <FULLDUPLEX>false</FULLDUPLEX>
+         <AUTONEGOTIATEBANDWIDTH>true</AUTONEGOTIATEBANDWIDTH>
+         <AUTONEGOTIATEDUPLEX>true</AUTONEGOTIATEDUPLEX>
+         <MACADDRESS>0009.7C8E.8903</MACADDRESS>
+         <BIA>0009.7C8E.8903</BIA>
+         <CLOCKRATE>0</CLOCKRATE>
+         <DESCRIPTION />
+         <CHANNEL>0</CHANNEL>
+         <IP />
+         <SUBNET />
+         <TIMEOUT>14400000</TIMEOUT>
+         <IPV6_ENABLED>false</IPV6_ENABLED>
+         <IPV6_ADDRESS_AUTOCONFIG>false</IPV6_ADDRESS_AUTOCONFIG>
+         <IPV6_LINK_LOCAL />
+         <IPV6_DEFAULT_LINK_LOCAL>FE80::209:7CFF:FE8E:8903</IPV6_DEFAULT_LINK_LOCAL>
+         <IPV6_ADDRESSES />
+        </PORT>
+       </MODULE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+      </SLOT>
+      <SLOT>
+       <TYPE>ePtRouterModule</TYPE>
+      </SLOT>
+     </MODULE>
+     <RUNNINGCONFIG>
+      </RUNNINGCONFIG>
+     <STARTUPCONFIG>
+      </STARTUPCONFIG>
+     <CURRENT_COMMAND_SET>pt_12.2</CURRENT_COMMAND_SET>
+     <FILE_MANAGER>
+      <FILE class="CDirectory">
+       <FILE_NUMBER>0</FILE_NUMBER>
+       <NAME />
+       <DATE_TIME>0</DATE_TIME>
+       <PERMISSION>6</PERMISSION>
+       <FILE_CONTENT />
+       <FILES>
+        <FILE class="CFileSystem">
+         <FILE_NUMBER>0</FILE_NUMBER>
+         <NAME>flash:</NAME>
+         <DATE_TIME>0</DATE_TIME>
+         <PERMISSION>6</PERMISSION>
+         <FILE_CONTENT />
+         <FILES>
+          <FILE class="CFile">
+           <FILE_NUMBER>3</FILE_NUMBER>
+           <NAME>pt1000-i-mz.122-28.bin</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIosFileContent">
+            <DEVICE_TYPE>Router</DEVICE_TYPE>
+            <SET_NAME>pt_12.2</SET_NAME>
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>2</FILE_NUMBER>
+           <NAME>sigdef-category.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsCategoryFileContent">
+            <SIG_CAT />
+           </FILE_CONTENT>
+          </FILE>
+          <FILE class="CFile">
+           <FILE_NUMBER>1</FILE_NUMBER>
+           <NAME>sigdef-default.xml</NAME>
+           <DATE_TIME>0</DATE_TIME>
+           <PERMISSION>6</PERMISSION>
+           <FILE_CONTENT class="CIpsDatFileContent">
+            <ICMP_SIGNATURE>
+             <SIGNATURE>
+              <SIG_ID>2004</SIG_ID>
+              <SUB_ID>0</SUB_ID>
+              <RETIRED>0</RETIRED>
+              <ENABLED>0</ENABLED>
+              <EVENT_ACTION>0</EVENT_ACTION>
+             </SIGNATURE>
+            </ICMP_SIGNATURE>
+           </FILE_CONTENT>
+          </FILE>
+         </FILES>
+         <FILE_COUNTER>3</FILE_COUNTER>
+         <CAPACITY>64016384</CAPACITY>
+        </FILE>
+       </FILES>
+      </FILE>
+     </FILE_MANAGER>
+     <BOOT_SYSTEMS />
+     <CONFIG_REGISTER>8450</CONFIG_REGISTER>
+     <NEXT_CONFIG_REGISTER>8450</NEXT_CONFIG_REGISTER>
+     <CURRENT_BOOT_FILE>flash:/pt1000-i-mz.122-28.bin</CURRENT_BOOT_FILE>
+     <BUILD_IN_ADDR>0001.6492.4751</BUILD_IN_ADDR>
+     <SECURITY>
+      <KEY_NAME />
+      <TEMP_KEY_NAME />
+      <RSA_KEY />
+      <TEMP_RSA_KEY />
+      <TIME_DATE />
+      <ENABLED>0</ENABLED>
+     </SECURITY>
+     <ALGORITHM_SETTINGS>
+      <USE_GLOBAL>true</USE_GLOBAL>
+      <CBAC_HALF_OPEN_SESSION_MULTIPLIER>1</CBAC_HALF_OPEN_SESSION_MULTIPLIER>
+      <TCP_MAX_CONNECTING_SESSIONS>100</TCP_MAX_CONNECTING_SESSIONS>
+      <TCP_MAX_OPENED_SESSIONS>1000</TCP_MAX_OPENED_SESSIONS>
+      <INTERFACE_QUEUE_SIZE>10</INTERFACE_QUEUE_SIZE>
+      <STORM_CONTROL_MULTIPLIER>10</STORM_CONTROL_MULTIPLIER>
+     </ALGORITHM_SETTINGS>
+     <SIG_IPSPROCESS>
+      <SIGNATURE>
+       <SIG_ID>2004</SIG_ID>
+       <SUB_ID>0</SUB_ID>
+       <RETIRED>0</RETIRED>
+       <ENABLED>0</ENABLED>
+       <EVENT_ACTION>0</EVENT_ACTION>
+      </SIGNATURE>
+     </SIG_IPSPROCESS>
+     <SECURITY>
+      <KEY_NAME />
+      <TEMP_KEY_NAME />
+      <RSA_KEY />
+      <TEMP_RSA_KEY />
+      <TIME_DATE />
+      <ENABLED>0</ENABLED>
+     </SECURITY>
+    </ENGINE>
+    <WORKSPACE>
+     <LOGICAL>
+      <X>0</X>
+      <Y>0</Y>
+      <DEVCLUSTERID>1-1</DEVCLUSTERID>
+      <CUSTOM_IMAGE_PHYSICAL />
+      <CUSTOM_IMAGE_LOGICAL />
+      <MEM_ADDR>0</MEM_ADDR>
+      <DEV_ADDR>0</DEV_ADDR>
+     </LOGICAL>
+     <PHYSICAL translate="true" />
+    </WORKSPACE>
+   </DEVICE>
+   
